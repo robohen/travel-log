@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+nav {
+  position: absolute;
+  width: 550px;
+  height: 55px;
+  left: 0px;
+  top: 0px;
+
+  background: #f55a5a;
+}
+.nav--text {
+  position: absolute;
+  width: 109px;
+  height: 16px;
+  left: 244px;
+  top: 20px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+
+  color: #ffffff;
+}
+
+.hero--photo {
+  max-width: 400px;
+  align-self: center;
+}
+.places--startDate {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  color: #2b283a;
+}
+.places--endDate {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  color: #2b283a;
+}
+.places--descrition {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+}
+.places--gmap {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 12px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+}
+.lineDivider {
+  width: 478px;
+  height: 0px;
+  left: 40px;
+  top: 286px;
+
+  border: 1px solid #f5f5f5;
+}
+#topright {
+  justify-content: flex-end;
+}
